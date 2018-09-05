@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cynthia Elizabeth Rivera Laguna</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+   <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
+
+  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+  <!--banner-->
+  <section id="banner">
+    <div class="bg-color">
+      <header id="header">
+        <div class="container">
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#about">Quienes somos</a>
+            <a href="#event">Evento</a>
+            <a href="#menu-list">Menu</a>
+            <a href="#contact">Reservaciones</a>
+          </div>
+          <!-- Use any element to open the sidenav -->
+          <span onclick="openNav()" class="pull-right menu-icon">☰</span>
+        </div>
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="inner text-center">
+            <h1 class="logo-name">La Mexicana</h1>
+            <h2>Comidas de alta calidad mexicanas con sabor a mexico.</h2>
+            <p>¡Especializado en Mexico y su sabor!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / banner -->
+  <!--about-->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center marb-35">
+          <h1 class="header-h">Comidas Mexicanas </h1>
+          <p class="header-p">  Restaurante especializado en todas las comidas mexicanas del norte de mexico. </p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="col-md-6 col-sm-6">
+            <div class="about-info">
+              <h2 class="heading">Idea de como surgio el restaurante</h2>
+              <p>Este restaurante surgio con la idea de crear un restaurante de comida mexicana que tuviera sabor a 
+mexico.Nuetsra meta es volvernos internacionales y tener distintos locales por todo el munco nos 
+especializamos en comida mas que nada norteña.</p>
+              <div class="details-list">
+                <ul>
+                  <li><i class="fa fa-check"></i>Comida norteña</li>
+                  <li><i class="fa fa-check"></i>Comida del sureste</li>
+                  <li><i class="fa fa-check"></i>Comida del centro </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <img src="img/res01.jpg" alt="" class="img-responsive">
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+  </section>
+  <!--/about-->
+  <!-- event -->
+  <section id="event">
+    <div class="bg-color" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center" style="padding:60px;">
+            <h1 class="header-h">Evento del 15 de Septiembre</h1>
+            <p class="header-p">Independencia de Mexico</p>
+          </div>
+          <div class="col-md-12" style="padding-bottom:60px;">
+            <div class="item active left">
+              <div class="col-md-6 col-sm-6 left-images">
+                <img src="img/res02.jpg" class="img-responsive">
+              </div>
+              <div class="col-md-6 col-sm-6 details-text">
+                <div class="content-holder">
+                  <h2>Fiesta Mexicana</h2>
+                  <p>En este dia en el restaurante se vive una fiesta Mexicana en la cual ofrecemos un buffete de diferentes comidas regionales de los diferentes estados de Mexico, ofrecemos los distintos plantillos a un mejor precio y con muchas promociones</p>
+                  <address>
+                              <strong>Lugar: </strong>
+                              ·#4502 ,Las Fuentes Colon
+                              <br>
+                              <strong>Hora: </strong>
+                              08:00pm
+                            </address>
+                  <a class="btn btn-imfo btn-read-more" href="events-details.html">Mas Informacion</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ event -->
+  <!-- menu -->
+  <section id="menu-list" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center marb-35">
+          <h1 class="header-h">Menu</h1>
+          <p class="header-p">Los diferentes platillos que ofrecemos
+            <br>son de Mexico los cuales mostramos a continuacion: </p>
+        </div>
+        <div class="col-md-12  text-center gallery-trigger">
+          <ul>
+            <li><a class="filter" data-filter="all">Todos los platillos</a></li>
+            <li><a class="filter" data-filter=".category-1">Desayunos</a></li>
+            <li><a class="filter" data-filter=".category-2">Comidas</a></li>
+          
+          </ul>
+        </div>
+        <div id="Container">
+          <div class="mix category-1 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Huevo estrellado</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$80.99</span>
+            </span>
+            <span class="menu-subtitle">Contine calidad del mejor huevo. bañado en la mejor salsa de tomate</span>
+          </div>
+          <div class="mix category-1 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Chilaquiles</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$50.99</span>
+            </span>
+            <span class="menu-subtitle">Tiene un los mejores totopos, con el queso y con la mejro salsa</span>
+          </div>
+          <div class="mix category-1 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Huevos con salsa</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$70.99</span>
+            </span>
+            <span class="menu-subtitle">Huevos, bañados con la mejor salsa</span>
+          </div>
+          <div class="mix category-1 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Tacos a vapor</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$50.99</span>
+            </span>
+            <span class="menu-subtitle">Contiene la mejor totilla con la mejor carne</span>
+          </div>
+          <div class="mix category-2 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Mole</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$100.99</span>
+            </span>
+            <span class="menu-subtitle">Contiene el mejor mole junto con carne de puerco y pollo</span>
+          </div>
+          <div class="mix category-2 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Asado</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$90.99</span>
+            </span>
+            <span class="menu-subtitle">Contiene chile ancho y carne de puerco</span>
+          </div>
+          <div class="mix category-2 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Flautas</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$120.99</span>
+            </span>
+            <span class="menu-subtitle">Contiene carne de res,con tortillas, crema y guacamole</span>
+          </div>
+          <div class="mix category-2 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Sopes</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$10.99</span>
+            </span>
+            <span class="menu-subtitle">Contienen diferentes guisos y estan disponibles al comal o en aceite</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ menu -->
+  <!-- contact -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1 class="header-h">Reserva tu mesa</h1>
+          <p class="header-p">Tenemos el mejor lugar para recordar a mexico y su sabor
+            <br>excelente ambiente y comodidad para todos los clientes. </p>
+        </div>
+      </div>
+      <div class="row msg-row">
+        <div class="col-md-4 col-sm-4 mr-15">
+          <div class="media-2">
+            <div class="media-left">
+              <div class="contact-phone bg-1 text-center"><span class="phone-in-talk fa fa-phone"></span></div>
+            </div>
+            <div class="media-body">
+              <h4 class="dark-blue regular">Numero telefonico</h4>
+              <p class="light-blue regular alt-p">+52 10 82 46 58 - <span class="contacts-sp">Telefono de sucursal</span></p>
+            </div>
+          </div>
+          <div class="media-2">
+            <div class="media-left">
+              <div class="contact-email bg-14 text-center"><span class="hour-icon fa fa-clock-o"></span></div>
+            </div>
+            <div class="media-body">
+              <h4 class="dark-blue regular">Horario</h4>
+              <p class="light-blue regular alt-p"> Lunes- Viernes:8:00 a 21:00</p>
+              <p class="light-blue regular alt-p">
+                Sabado-Domingo:9:00 a 3:00 pm
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 col-sm-8">
+          <form action="" method="post" role="form" class="contactForm">
+            <div id="sendmessage">Your booking request has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <div class="col-md-6 col-sm-6 contact-form pad-form">
+              <div class="form-group label-floating is-empty">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+
+            </div>
+            <div class="col-md-6 col-sm-6 contact-form">
+              <div class="form-group">
+                <input type="date" class="form-control label-floating is-empty" name="date" id="date" placeholder="Date" data-rule="required" data-msg="This field is required" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 contact-form pad-form">
+              <div class="form-group">
+                <input type="email" class="form-control label-floating is-empty" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 contact-form">
+              <div class="form-group">
+                <input type="time" class="form-control label-floating is-empty" name="time" id="time" placeholder="Time" data-rule="required" data-msg="This field is required" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control label-floating is-empty" name="phone" id="phone" placeholder="Phone" data-rule="required" data-msg="This field is required" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control label-floating is-empty" name="people" id="people" placeholder="People" data-rule="required" data-msg="This field is required" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="col-md-12 contact-form">
+              <div class="form-group label-floating is-empty">
+                <textarea class="form-control" name="message" rows="5" rows="3" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+
+            </div>
+            <div class="col-md-12 btnpad">
+              <div class="contacts-btn-pad">
+                <button class="contacts-btn">Reserve Su Mesa</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / contact -->
+  <!-- footer -->
+  <footer class="footer text-center">
+    <div class="footer-top">
+      <div class="row">
+        <div class="col-md-offset-3 col-md-6 text-center">
+          <div class="widget">
+            <h4 class="widget-title">La Mexicana</h4>
+            <address>325<br>Delhi, DL 110013</address>
+            <div class="social-list">
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </div>
+            <p class="copyright clear-float">
+              © La Mexicana.
+              <div class="credits">
+                
+                Creado por <a href="http://www.servitecflhuaraz.com/">La Mexicana</a>
+              </div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- / footer -->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.mixitup.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>
